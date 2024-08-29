@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0%;
+}
+
+* {
+    margin: 0%;
+}
+
+.section2 .container {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+.section2 .container .items {
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border: 2.5px solid black;
+    border-radius: 12px;
+
+}
+
+.container {
+    background-color: black;
+    background-size: cover;
+}
+
+.scroll {
+    background-color: #957DAD;
+    background-size: cover;
+}
+
+.section2 .container .items .name {
+    text-align: center;
+    background-color: rgb(240, 197, 6);
+    height: 25px;
+    padding-top: 4px;
+    color: white;
+    margin: 0;
+    text-decoration: none;
+}
+
+.section2 .container .items .price {
+    float: left;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    color: rgb(255, 0, 0);
+    font-weight: 650;
+
+}
+
+.heading {
+    font-size: 25px;
+    color: white;
+    padding: 80px;
+
+}
+
+h1 {
+    padding: 20px;
+    background-color: cyan;
+    font-size: 40px;
+    color: Black;
+    text-shadow: 3px 3px 3px pink;
+    text-align: center;
+}
+
+.section2 .container .items .info {
+    padding: 10px;
+    color: rgb(243, 168, 7);
+
+}
+
+.section2 .container .items .img img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    transition-duration: 0.8s;
+}
+
+.section2 .container .items .img {
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.section2 .container .items:hover .img img {
+    transform: scale(1.12);
+    transition-duration: 0.9s;
+    border-radius: 12px;
+
+}
+
+.items {
+    overflow: hidden;
+
+}
